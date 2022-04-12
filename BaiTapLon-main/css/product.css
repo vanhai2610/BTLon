@@ -1,0 +1,21 @@
+.title-best-sale{
+    margin-top: 15px;
+    border-bottom: solid 5px;
+}
+.best-sale-product{
+    margin-top: 20px;
+    display: flex;
+}
+.product-item{
+    width: 200px;
+    height: 300px;
+    border: solid 1px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.product-item img{
+    width: 100%;
+} 
+.product-item:hover{
+    border: solid 3px;
+}

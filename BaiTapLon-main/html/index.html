@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/bce4fde2fa.js" crossorigin="anonymous"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/slide.js"></script>
+    <script src="../js/index.js"></script>
+    <link rel="stylesheet" href="../css/product.css">
+  <!-- <link rel="stylesheet" href="../css/slide.css"> -->
+
+</head>
+<body>
+  <div class="container-fluid">
+
+    <div class="container-fluid top-header">
+      <div class="row header">
+          <div id="logo" class="col-sm-3 col-xs-3">
+            <a href="#"><img src="../img/Black with Book Shelf Icon Education Logo.png" alt="Nhà sách Phú Hải" class="img-responsive"></a></div>
+        
+          <div class="container-1 col-sm-4 col-xs-4">
+  
+                <input type="search"  id="search" placeholder="Tìm kiếm ở đây..." /> 
+                <span class="icon"><i class="fa fa-search"></i></span>
+          </div>
+          
+          <div id="button" class="col-sm-5 col-xs-5">
+            <i class="fa-solid fa-user-group"></i> <a href="#" id="btn1">Đăng Nhập</a>/
+            <a href="#" id="btn2">Đăng Kí</a>
+          </div>
+      </div>
+      <nav class="navbar navbar-expand-sm menu">
+       <ul class="navbar-nav">
+              <li class="nav-item"><a href=""  class="nav-link" >Trang chủ</a></li>
+              <li class="nav-item"><a href="">Sách <i class="fa-solid fa-caret-down icon-drop" ></i></a> 
+                  <ul class="sub-menu">
+                     <li><a href="#" class="text-submenu"  class="nav-link" class="dropdown-item">Sách giáo khoa</a></li>
+                      <li><a href="#" class="text-submenu"  class="nav-link" class="dropdown-item">Sách truyện dài</a></li>
+                     <li><a href="#" class="text-submenu"  class="nav-link" class="dropdown-item">Sách tâm lý</a></li> 
+                  </ul>
+              </li>
+              <li class="nav-item"><a href="#">Văn Phòng Phẩm</a></li>
+              <li class="nav-item"><a href="#">Quà lưu niệm</a></li>
+              <li class="nav-item"><a href="#">Liên hệ</a></li>
+              </ul>
+      </nav>
+    </div>
+    <div class="slider">
+      <img src="../img/banner/banner1.jpg" class="slide-item" number="0">
+      <img src="../img/banner/banner2.png" class="slide-item" number="1" style="display:none;">
+      <img src="../img/banner/banner3.jpg" class="slide-item" number="2"style="display:none;">
+      <a href="#" class="next"><i class="fa-solid fa-arrow-right-long"></i></a>
+      <a href="#" class="prev"><i class="fa-solid fa-arrow-left"></i></a>
+
+      <div class="owl-dots">
+        <div class="dot"><span></span></div>
+        <div class="dot"><span></span></div>
+        <div class="dot"><span></span></div>
+    </div>
+      
+  </div>
+ 
+      <!-- Full-width images with number and caption text -->
+      
+      <div class="best-sale">
+        <div class="title-best-sale">
+
+          <h2 style="text-align: center; font-size: 30px; margin-top: 15px;">Sách Bán Chạy</h2>
+        </div>
+      
+        <div class="best-sale-product">
+          <div class="product-item">
+            <div class="product-img"><img src="../img/SGK/bo 10 sgk lop 1/ca5a8b4f468af1a8ffbcd1c926fa8cd5.jpg" alt=""></div>
+            <div class="product-name"><p>Sách lớp 1</p></div>
+            <div class="price">15.000đ</div>
+          </div>
+          <div class="product-item">
+            <div class="product-img"><img src="../img/TRUYEN DAI/Ra bo suoi ngam hoa ken hong/73914cee67b5e279d3aef214031f3222.jpg" alt=""></div>
+            <div class="product-name"><p>Ra bờ suối ngắm hoa kèn hồng</p></div>
+            <div class="price">65.000đ</div>
+          </div>
+          <div class="product-item">
+            <div class="product-img"><img src="../img/TRUYEN DAI/nhat ky covid/aee6f4e40ef6f9a943c2835cb09fc2a7.jpg" alt=""></div>
+            <div class="product-name"><p>Nhật ký covid</p></div>
+            <div class="price">60.000đ</div>
+          </div>
+          <div class="product-item">
+            <div class="product-img"><img src="../img/TRUYEN DAI/dam hanh phuc/36d16def99eafa5db9b2e3cf2efd0f43.jpg" alt=""></div>
+            <div class="product-name"><p>Dám hạnh phúc</p></div>
+            <div class="price">45.000đ</div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <footer>
+    <h4>Dang Ngoc Phu & Do Van Hai</h4>
+  </footer>
+  <!-- modal dang ky -->
+  <!-- <div class="modal fade" role="dialog" id="myModal">
+    <div class="modal-dialog" style="margin-top: 10px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="text-left">THÔNG TIN CÁ NHÂN</h2>
+            </div>
+            <div class="modal-body">
+                <form role="form" class="form-horizontal" style="margin-top: 10px;">
+                    <label for="Name" class="control-label colo-xs-3">Họ tên</label>
+                    <div class="col-xs-9">
+                        <input type="text" id="Name" class="form-control">
+                        <span class="text-danger" id="tbName">*</span>
+                    </div>
+                    <label for="Ao" class="control-label col-xs-3">Số áo</label>
+                    <div class="col-xs-9" style="margin-bottom:10px;">
+                        <input type="text" id="Ao" class="form-control"><span class="text-danger" style="color:red;" id="tbAo">*</span>
+                    </div>
+                    <label for="DC" class="control-label col-xs-3">Địa chỉ</label>
+                    <div class="col-xs-9">
+                        <input type="text" id="DC" class="form-control">
+                        <span class="text-danger" style="color:red;" id="tbDc">*</span>
+                    </div>
+                    <label for="NTT" class="control-label col-xs-3">Ngày tập trung</label>
+                    <div class="col-xs-9">
+                        <input type="date" id="NTT" class="form-control">
+                        <span class="text-danger" style="color:red;" id="tbNTT">*</span>
+                    </div>
+                    <label for="SDT" class="control-label col-xs-3">Số điện thoại</label>
+                    <div class="col-xs-9">
+                        <input type="text" id="SDT" class="form-control">
+                        <span class="text-danger" style="color:red;" id="tbSDT">*</span>
+                    </div>
+                    <label for="ADD" class="control-label col-xs-3">Ảnh đại diện</label>
+                    <div class="col-xs-9">
+                        <input type="file" id="ADD" class="form-control">
+                        <span class="text-danger" style="color:red;" id="tbAdd">*</span>
+                    </div>
+                    <button class="btn btn-sucess btn-group-justified" id="Save" type="button"
+                        style="color:white;background-color: green;width: 100%;">Lưu</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> -->
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/bce4fde2fa.js" crossorigin="anonymous"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    
+    <script src="../js/slide.js"></script>
+    <style>
+        body {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .slider {
+            position: relative;
+            width: 931px;
+            height: 279px;
+            margin-top: 150px;
+        }
+
+        .slider img {
+            position: absolute;
+            width: 931px;
+            height: 279px;
+        }
+
+        .slider a {
+            display: block;
+            width: 60px;
+            height: 45px;
+            background-color: rgba(0, 0, 0, .18);
+            z-index: 1000;
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+            line-height: 45px;
+        }
+
+        .next {
+            position: absolute;
+            right: 0px;
+            top: 120px;
+        }
+
+        .prev {
+            position: absolute;
+            left: 0px;
+            top: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider">
+        <img src="../img/banner/banner1.jpg" class="slide-item" number="0">
+        <img src="../img/banner/banner2.png" class="slide-item" number="1" style="display:none;">
+        <img src="../img/banner/banner3.jpg" class="slide-item" number="2"style="display:none;">
+        <a href="#" class="next">Next</a>
+        <a href="#" class="prev">Prev</a>
+    </div>
+    
+</body>
+
+</html>

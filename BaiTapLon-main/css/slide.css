@@ -1,0 +1,56 @@
+/* body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+} */
+
+.slider {
+    position: relative;
+    width: 931px;
+    height: 279px;
+    margin: 10px 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.slider img {
+    position: absolute;
+    width: 931px;
+    height: 279px;
+    justify-content: center;
+}
+
+.slider a {
+    display: block;
+    width: 60px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, .18);
+    z-index: 1000;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    line-height: 45px;
+}
+.slider .owl-dots{
+    justify-content: center;
+    z-index: 1000;
+    bottom: 10px;
+    position: absolute;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 6px;
+    background-color: #f1f1f1;
+}
+.next {
+    position: absolute;
+    right: 0px;
+    top: 120px;
+}
+
+.prev {
+    position: absolute;
+    left: 0px;
+    top: 120px;
+}
